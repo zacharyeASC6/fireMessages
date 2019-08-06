@@ -7,11 +7,29 @@
 
     <title>fireMessage</title>
 
-    <!--Go to https://console.firebase.google.com-->
+    <!--Go to https://console.firebase.google.com -->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js" ></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDlL7qOA3XrWkov6AoRo0v5ZzVkwpywWI8",
+    authDomain: "firemessage-23853.firebaseapp.com",
+    databaseURL: "https://firemessage-23853.firebaseio.com",
+    projectId: "firemessage-23853",
+    storageBucket: "",
+    messagingSenderId: "387293068957",
+    appId: "1:387293068957:web:333b62fce71a0fee"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <!--custom files-->
     <script src="lib/js/main.js" defer></script>
